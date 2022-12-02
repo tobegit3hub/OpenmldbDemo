@@ -23,6 +23,8 @@
         <scala.version>2.12.10</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
 
+        <oss.sdk.version>3.1.0</oss.sdk.version>
+
         <openmldb.batch.version>0.6.4</openmldb.batch.version>
         <openmldb.native.version>0.6.4</openmldb.native.version>
         <!-- <openmldb.native.version>0.6.4-allinone</openmldb.native.version> -->
@@ -79,6 +81,29 @@
             <artifactId>hadoop-fs-oss</artifactId>
             <version>${cupid.sdk.version}</version>
         </dependency>
+
+        <!-- Spark-2.x请依赖此模块
+        <dependency>
+            <groupId>com.aliyun.odps</groupId>
+            <artifactId>odps-spark-datasource_2.11</artifactId>
+            <version>3.3.2-public</version>
+        </dependency>
+        -->
+
+        <!-- oss -->
+        <!--
+        <dependency>
+            <groupId>com.aliyun.emr</groupId>
+            <artifactId>emr-core</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>${oss.sdk.version}</version>
+        </dependency>
+        -->
 
         <!-- 4paradigm -->
         <dependency>
